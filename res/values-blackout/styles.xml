@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 DarkKat
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!-- Blackout theme -->
+    <style name="DialtactsActionBarOverflow"
+           parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow_menu</item>
+    </style>
+
+    <style name="DialtactsActionBarOverflowWhite"
+           parent="@android:style/Widget.Material.ActionButton.Overflow">
+        <item name="android:src">@drawable/overflow_menu</item>
+    </style>
+
+    <style name="DialtactsActionBarStyle"
+           parent="@style/Widget.AppCompat.ActionBar.Solid">
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="background">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="titleTextStyle">@style/DialtactsActionBarTitleText</item>
+        <item name="android:height">@dimen/action_bar_height</item>
+        <item name="height">@dimen/action_bar_height</item>
+        <item name="android:elevation">@dimen/action_bar_elevation</item>
+        <item name="elevation">@dimen/action_bar_elevation</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="icon">@android:color/transparent</item>
+        <item name="android:contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+        <item name="contentInsetStart">@dimen/actionbar_contentInsetStart</item>
+    </style>
+
+    <style name="DialtactsActionBarTabTextStyle"
+           parent="android:style/Widget.Material.ActionBar.TabText">
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:fontFamily">"sans-serif-medium"</item>
+    </style>
+
+    <style name="ListViewStyle" parent="@android:style/Widget.Material.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+</resources>
