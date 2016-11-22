@@ -18,6 +18,7 @@
 
     <!-- Blackout theme -->
     <color name="blackout_bg">#ff000000</color>
+    <color name="primary_color_blackout">#ff101010</color>
 
     <color name="dialtacts_primary_text_color">#ffffffff</color>
     <color name="dialtacts_secondary_text_color">#b3ffffff</color>
@@ -41,7 +42,7 @@
     <color name="background_dialer_white">@color/blackout_bg</color>
     <color name="background_dialer_light">@color/blackout_bg</color>
     <color name="background_dialer_results">@color/blackout_bg</color>
-    <color name="background_dialer_call_log_list_item">@color/blackout_bg</color>
+    <color name="background_dialer_call_log_list_item">@color/primary_color_blackout</color>
 
     <color name="favorite_contacts_separator_color">#1fffffff</color>
 
